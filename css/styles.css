@@ -455,7 +455,8 @@ address {
   transform: translateY(100%);
   transition-property: transform, opacity;
   transition-duration: 250ms, 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1),cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1),
+    cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-list__item:hover .overlay {
