@@ -464,7 +464,7 @@ address {
 
 .overlay {
   position: absolute;
-  background-color: var(--ocean);
+  background-color: var(--iris);
   top: 0;
   left: 0;
   width: 100%;
