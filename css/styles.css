@@ -404,6 +404,11 @@ address {
   align-items: center;
 }
 
+.icon-list__icon {
+  fill: var(--cloud);
+}
+
+
 .icon-list__container-links:hover,
 .icon-list__container-links:focus {
   background-color: var(--green);
