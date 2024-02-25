@@ -385,8 +385,7 @@ address {
 .icon-list__container-links {
   width: 40px;
   height: 40px;
-  background: var(--iris);
-  border-radius: 50%;
+  
 
   transition-property: background-color;
   transition-duration: 250ms;
@@ -396,6 +395,9 @@ address {
 .icon-list__container-link {
   width: 100%;
   height: 100%;
+  
+
+  background-color: var(--iris);
   border-radius: 50%;
 
   display: flex;
@@ -409,9 +411,9 @@ address {
 }
 
 
-.icon-list__container-links:hover,
-.icon-list__container-links:focus {
-  background-color: var(--green);
+.icon-list__container-link:hover,
+.icon-list__container-link:focus {
+  background-color: var(--ocean);
 }
 
 /* finished - team section */
